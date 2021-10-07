@@ -1,5 +1,4 @@
 import React from "react";
-import { Grid, GridItem, Box, Button, Flex } from "@chakra-ui/react";
 
 import "./TipCalculator.css";
 

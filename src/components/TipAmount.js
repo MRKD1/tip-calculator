@@ -1,16 +1,6 @@
 import React from "react";
 
-import {
-  Button,
-  VStack,
-  StackDivider,
-  Grid,
-  GridItem,
-  SimpleGrid,
-  Box,
-  Flex,
-  Spacer,
-} from "@chakra-ui/react";
+import { Button, Grid, Flex, Spacer } from "@chakra-ui/react";
 
 import "./TipAmount.css";
 
