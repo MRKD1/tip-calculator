@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
-import Box from "@mui/material/Box";
+
+import { Box, Grid } from "@chakra-ui/react";
 
 import "./App.css";
 import TipAmount from "./components/TipAmount";
@@ -30,18 +31,15 @@ const App = () => {
   };
 
   return (
-    <div>
-      <Box
-        sx={{
-          width: 1000,
-          height: 500,
-          bgcolor: "#e0f2f1",
-          boxShadow: 5,
-          borderRadius: 5,
-          display: "grid",
-          gridTemplateColumns: "repeat(2, 1fr)",
-        }}
-      >
+    <Box
+      className="ui container"
+      bg="#E6FFFA"
+      p={4}
+      color="white"
+      borderRadius={20}
+      boxShadow="dark-lg"
+    >
+      <Grid templateColumns="repeat(2, 1fr)" gap={6}>
         <TipCalculator
           bill={bill}
           onChangeBill={(e) => setBill(Number(e.target.value))}
@@ -55,8 +53,8 @@ const App = () => {
           total={total}
           onClickReset={handleButton}
         />
-      </Box>
-    </div>
+      </Grid>
+    </Box>
   );
 };
 

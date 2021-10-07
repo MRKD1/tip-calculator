@@ -2,10 +2,12 @@
   margin: 3vh;
   border-radius: 20px;
   padding: 3vh;
+  color: #1d4044 !important;
+  font-weight: 600;
 }
 
 .calculator input {
-  color: hsl(183, 100%, 15%) !important;
+  color: #1d4044 !important;
   font-weight: 700;
   font-size: 1.3rem;
 }
@@ -13,11 +15,15 @@
 .tip-button {
   width: 12vh;
   height: 5vh;
-  background-color: hsl(183, 100%, 15%) !important;
+  background-color: #1d4044 !important;
   color: hsl(0, 0%, 100%) !important;
   font-size: 1.3rem !important;
 }
 
 .input {
   width: 100%;
+}
+
+.column {
+  padding-left: 0 !important;
 }

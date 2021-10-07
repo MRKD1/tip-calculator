@@ -1,8 +1,11 @@
 .amount {
-  background-color: hsl(183, 100%, 15%);
+  background-color: #1d4044;
   margin: 3vh;
   border-radius: 20px;
-  padding: 3vh;
+  padding: 5vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .tipAmount {
@@ -13,12 +16,23 @@
   color: aliceblue;
 }
 
-.reset button {
-  background-color: hsl(172, 67%, 45%) !important;
+p {
+  margin: 0;
+}
+
+button {
+  height: 4rem;
+  color: #1d4044;
+  background-color: #38b2ac;
+  border: 2px;
+  font-weight: 700;
+  font-family: "Space Mono", monospace;
+  font-size: 1.4rem;
+  border-color: #38b2ac;
 }
 
 .grid .ten {
   font-size: 2rem;
-  color: hsl(172, 67%, 45%);
+  color: #38b2ac;
   font-weight: 700;
 }
