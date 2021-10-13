@@ -8,7 +8,7 @@ import TipCalculator from "./components/TipCalculator";
 
 const App = () => {
   const [bill, setBill] = useState(0);
-  const [people, setPeople] = useState(0);
+  const [people, setPeople] = useState(1);
   const [tip, setTip] = useState(0);
   const [tipAmount, setTipAmount] = useState(0);
   const [total, setTotal] = useState(0);

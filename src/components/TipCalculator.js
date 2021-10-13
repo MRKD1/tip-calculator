@@ -31,21 +31,51 @@ const TipCalculator = ({
         <div className="wide row">Select Tip %</div>
         <div class="three column row">
           <div class="column">
-            <button className="ui fluid button tip-button">5%</button>
+            <button
+              className="ui fluid button tip-button"
+              value={5}
+              onClick={onChangeTip}
+            >
+              5%
+            </button>
           </div>
           <div class="column">
-            <button className="ui fluid button tip-button">10%</button>
+            <button
+              className="ui fluid button tip-button"
+              value={10}
+              onClick={onChangeTip}
+            >
+              10%
+            </button>
           </div>
           <div class="column">
-            <button className="ui fluid button tip-button">15%</button>
+            <button
+              className="ui fluid button tip-button"
+              value={15}
+              onClick={onChangeTip}
+            >
+              15%
+            </button>
           </div>
         </div>
         <div class="three column row">
           <div class="column">
-            <button className="ui fluid button tip-button">25%</button>
+            <button
+              className="ui fluid button tip-button"
+              value={25}
+              onClick={onChangeTip}
+            >
+              25%
+            </button>
           </div>
           <div class="column">
-            <button className="ui fluid button tip-button">50%</button>
+            <button
+              className="ui fluid button tip-button"
+              value={50}
+              onClick={onChangeTip}
+            >
+              50%
+            </button>
           </div>
           <div class="column">
             <div className="ui input ">
